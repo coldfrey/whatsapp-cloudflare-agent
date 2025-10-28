@@ -23,7 +23,7 @@ Build and deploy a production-ready WhatsApp AI chatbot in minutes using Cloudfl
 ### 2. Clone and Install
 
 ```bash
-git clone https://github.com/coldfrey/whatsaap-cloudflare-agent.git
+git clone https://github.com/coldfrey/whatsapp-cloudflare-agent.git
 cd whatsapp-cloudflare-agent
 pnpm install
 ```
