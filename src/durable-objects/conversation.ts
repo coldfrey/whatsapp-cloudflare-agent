@@ -140,7 +140,7 @@ export class ConversationDurableObject extends DurableObject<Env> {
         model: openai('gpt-5-mini'),
         system: SYSTEM_PROMPT,
         messages: coreMessages,
-        temperature: 0.7,
+        temperature: 1,
       });
 
       return result.text || "I'm sorry, I couldn't generate a response.";

@@ -24,3 +24,9 @@ new_sqlite_classes = ["ConversationDurableObject"]
 # - FACEBOOK_AUTH_TOKEN (WhatsApp API token)
 # - WEBHOOK_VERIFY_TOKEN (Random string for webhook verification)
 
+
+# Observability settings
+[observability]
+enabled = true
+head_sampling_rate = 1.0  # Sample 100% of requests for traces (adjust as needed: 0.0 to 1.0)
+
